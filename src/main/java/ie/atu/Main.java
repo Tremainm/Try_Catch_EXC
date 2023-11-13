@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
+
+        int control = 1;
+
+        while(control != 0)
+        {
             try
             {
                 System.out.println("Enter number between 0 - 9: ");
@@ -29,6 +34,7 @@ public class Main {
             {
                 System.out.println("Enter a valid numeric value.");
             }
+        }
 
     }
 }
