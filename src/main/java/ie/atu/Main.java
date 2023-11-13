@@ -6,9 +6,7 @@ public class Main {
     public static void main(String[] args)
     {
 
-        int control = 1;
-
-        while(control != 0)
+        while(true)
         {
             try
             {
@@ -22,7 +20,7 @@ public class Main {
                 if (myNum >= 0 && myNum <= 9)
                 {
                     System.out.println("You entered " + myNum);
-                    control = 0;
+                    break;
                 }
 
                 else
